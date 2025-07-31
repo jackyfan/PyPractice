@@ -91,7 +91,7 @@ def split_pdf(input_path: str, output_dir: str, page_ranges: List[Tuple[int, int
 
 def main():
     # 固定参数设置 - 在这里修改为你的需求
-    input_path = "C:\\Users\\30046\\Downloads\\Building Scalable Deep Learning Pipelines on AWS Develop, Train, and Deploy Deep Learning Models (Abdelaziz Testas) (Z-Library).pdf"  # 输入PDF文件路径
+    input_path = "C:\\Users\\30046\\Downloads\\test.pdf"  # 输入PDF文件路径
     page_ranges = ["1-500", "501-749"]  # 页码范围
     output_dir = "C:\\Users\\30046\\Downloads\\"  # 输出目录
 
